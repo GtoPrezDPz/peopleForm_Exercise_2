@@ -1,0 +1,47 @@
+.mainContainer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    background-color: aquamarine;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    width: 40rem;
+    height: auto;
+    margin: auto;
+}
+.myForm{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.formField {
+    padding-top: 1.25rem;
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+.userField,
+.lastnameField,
+.passwordField,
+.companyEmailField,
+.personalEmailField,
+.populationField,
+.imageField,
+.creationDateField,
+.activatedField,
+.finalDate {
+    display:flex;
+    margin-bottom: 1.25rem;
+    justify-content: space-between;
+}
+.activatedField{
+    width: 75%;
+}
+.buttons{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 1rem;
+}
+.edit,
+.clean{
+    margin: 0.5rem;   
+}
